@@ -13,9 +13,9 @@ env/
 ENV/
 
 # Environments and secrets
-# *.env
-# *.env.*
-# *.secrets.*
+*.env
+*.env.*
+*.secrets.*
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints
