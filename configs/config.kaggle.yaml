@@ -1,0 +1,19 @@
+configurations:
+  project_name: my-cool-project
+  random_seed: 42
+  model_type: random_forest
+  cross_validation_folds: 5
+  test_size: 0.2
+  early_stopping_rounds: 10
+
+directories:
+  raw_data_dir: /kaggle/input/my-dataset/raw        # Adjust to actual Kaggle dataset path
+  processed_data_dir: /kaggle/working/processed
+  models_dir: /kaggle/working/models
+  outputs_dir: /kaggle/working/outputs
+  logs_dir: /kaggle/working/outputs/logs
+
+secrets:
+  keys:
+    - my-secret-01
+    - my-secret-02

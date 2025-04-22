@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml_project_template"
+version = "0.1.0"
+description = "My cool machine learning project template"
+authors = [{ name="Saurabh", email="cmmtout@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "python-dotenv",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "torch"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
